@@ -149,6 +149,14 @@ margin: 15px 10px;
     color: #72d2b8;
 }
 .table4 h3{
-    color: #5c67c6;
+    color: #5c67c6;}
     
-}
+    
+    @media only screen and (max-width: 800px) {
+        .parent {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+      }
