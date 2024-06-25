@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Hanken Grotesk,sans-serif;    ;
+   
+}
+.parent{
+    margin: 300px auto;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    
+    
+    
+}
+.child1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 20px;
+height: 400px;
+    background-color:hsl(252, 100%, 67%) ;;
+}
+.child1 p{
+    color: hsl(241, 100%, 89%);
+text-align: center;
+margin: 20px;
+font-weight: 600;
+font-size: 1.1em;
+}
+.child1 .circle{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        align-items: center;
+    color: white;
+    border-radius: 50%;
+    background-color:hsla(256, 72%, 46%, 1) ;
+    margin: auto auto;
+    width: 160px;
+    height: 150px;
+    
+    text-align: center;
+    font-weight: bold;
+        
+}
+.circle h1{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 40px;
+}
+.circle p{
+    font-size: 16px;
+    font-weight: 900px;
+    margin-bottom: 30px;
+    
+}
+.h2{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.child2{
+box-shadow: 20px 20px 3px #f4f7fe;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+background-color: white;
+padding: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.table{
+    display: flex;
+align-items: center;
+margin: 5px;
+width: 100%;    
+justify-content: space-between;
+  
+padding: 20px;
+margin-right: 20px;
+}
+.table img{
+    padding-right: 10px;
+}
+.table p{
+
+
+}
+.table3{
+    background-color: #f2fbfa;
+    height: 50px;
+}
+span{
+    font-weight: bold;
+    font-size: large;
+}
+.table2{
+   background-color:  #fffbf2;
+   height: 50px;
+}
+.table1{
+    background-color: #fff6f5;
+    height: 50px;
+}
+.table4{
+    background-color: #f3f3fd;
+    height: 50px;
+}
+button{
+    padding: 10px 50px;
+   width: 250px
+   ;
+   height: 50px;
+   border-radius: 50px;
+
+color: white;
+background-color: hsl(224, 30%, 27%);
+
+
+margin: 15px 10px;
+}
+.child2 h2{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.table1 h3{
+    color: #e99295;
+    
+}
+.table2 h3{
+    color: #edbe5d;
+    
+}
+.table3 h3{
+    color: #72d2b8;
+}
+.table4 h3{
+    color: #5c67c6;
+    
+}
